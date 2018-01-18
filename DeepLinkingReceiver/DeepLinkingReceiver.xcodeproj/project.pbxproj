@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC76784B201119F400940795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC76784A201119F400940795 /* AppDelegate.m */; };
+		DC76784E201119F400940795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC76784D201119F400940795 /* ViewController.m */; };
+		DC767851201119F400940795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC76784F201119F400940795 /* Main.storyboard */; };
+		DC767853201119F400940795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC767852201119F400940795 /* Assets.xcassets */; };
+		DC767856201119F400940795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC767854201119F400940795 /* LaunchScreen.storyboard */; };
+		DC767859201119F400940795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC767858201119F400940795 /* main.m */; };
+		DC767863201119F400940795 /* DeepLinkingReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC767862201119F400940795 /* DeepLinkingReceiverTests.m */; };
+		DC76786E201119F400940795 /* DeepLinkingReceiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC76786D201119F400940795 /* DeepLinkingReceiverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC76785F201119F400940795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC76783E201119F400940795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC767845201119F400940795;
+			remoteInfo = DeepLinkingReceiver;
+		};
+		DC76786A201119F400940795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC76783E201119F400940795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC767845201119F400940795;
+			remoteInfo = DeepLinkingReceiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC767846201119F400940795 /* DeepLinkingReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLinkingReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC767849201119F400940795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC76784A201119F400940795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC76784C201119F400940795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC76784D201119F400940795 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC767850201119F400940795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC767852201119F400940795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC767855201119F400940795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC767857201119F400940795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC767858201119F400940795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC76785E201119F400940795 /* DeepLinkingReceiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLinkingReceiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC767862201119F400940795 /* DeepLinkingReceiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepLinkingReceiverTests.m; sourceTree = "<group>"; };
+		DC767864201119F400940795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC767869201119F400940795 /* DeepLinkingReceiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLinkingReceiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76786D201119F400940795 /* DeepLinkingReceiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepLinkingReceiverUITests.m; sourceTree = "<group>"; };
+		DC76786F201119F400940795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC767843201119F400940795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76785B201119F400940795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC767866201119F400940795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC76783D201119F400940795 = {
+			isa = PBXGroup;
+			children = (
+				DC767848201119F400940795 /* DeepLinkingReceiver */,
+				DC767861201119F400940795 /* DeepLinkingReceiverTests */,
+				DC76786C201119F400940795 /* DeepLinkingReceiverUITests */,
+				DC767847201119F400940795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC767847201119F400940795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC767846201119F400940795 /* DeepLinkingReceiver.app */,
+				DC76785E201119F400940795 /* DeepLinkingReceiverTests.xctest */,
+				DC767869201119F400940795 /* DeepLinkingReceiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC767848201119F400940795 /* DeepLinkingReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				DC767849201119F400940795 /* AppDelegate.h */,
+				DC76784A201119F400940795 /* AppDelegate.m */,
+				DC76784C201119F400940795 /* ViewController.h */,
+				DC76784D201119F400940795 /* ViewController.m */,
+				DC76784F201119F400940795 /* Main.storyboard */,
+				DC767852201119F400940795 /* Assets.xcassets */,
+				DC767854201119F400940795 /* LaunchScreen.storyboard */,
+				DC767857201119F400940795 /* Info.plist */,
+				DC767858201119F400940795 /* main.m */,
+			);
+			path = DeepLinkingReceiver;
+			sourceTree = "<group>";
+		};
+		DC767861201119F400940795 /* DeepLinkingReceiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC767862201119F400940795 /* DeepLinkingReceiverTests.m */,
+				DC767864201119F400940795 /* Info.plist */,
+			);
+			path = DeepLinkingReceiverTests;
+			sourceTree = "<group>";
+		};
+		DC76786C201119F400940795 /* DeepLinkingReceiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC76786D201119F400940795 /* DeepLinkingReceiverUITests.m */,
+				DC76786F201119F400940795 /* Info.plist */,
+			);
+			path = DeepLinkingReceiverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC767845201119F400940795 /* DeepLinkingReceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC767872201119F400940795 /* Build configuration list for PBXNativeTarget "DeepLinkingReceiver" */;
+			buildPhases = (
+				DC767842201119F400940795 /* Sources */,
+				DC767843201119F400940795 /* Frameworks */,
+				DC767844201119F400940795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLinkingReceiver;
+			productName = DeepLinkingReceiver;
+			productReference = DC767846201119F400940795 /* DeepLinkingReceiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC76785D201119F400940795 /* DeepLinkingReceiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC767875201119F400940795 /* Build configuration list for PBXNativeTarget "DeepLinkingReceiverTests" */;
+			buildPhases = (
+				DC76785A201119F400940795 /* Sources */,
+				DC76785B201119F400940795 /* Frameworks */,
+				DC76785C201119F400940795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC767860201119F400940795 /* PBXTargetDependency */,
+			);
+			name = DeepLinkingReceiverTests;
+			productName = DeepLinkingReceiverTests;
+			productReference = DC76785E201119F400940795 /* DeepLinkingReceiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC767868201119F400940795 /* DeepLinkingReceiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC767878201119F400940795 /* Build configuration list for PBXNativeTarget "DeepLinkingReceiverUITests" */;
+			buildPhases = (
+				DC767865201119F400940795 /* Sources */,
+				DC767866201119F400940795 /* Frameworks */,
+				DC767867201119F400940795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC76786B201119F400940795 /* PBXTargetDependency */,
+			);
+			name = DeepLinkingReceiverUITests;
+			productName = DeepLinkingReceiverUITests;
+			productReference = DC767869201119F400940795 /* DeepLinkingReceiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC76783E201119F400940795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = arunabhdas;
+				TargetAttributes = {
+					DC767845201119F400940795 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DC76785D201119F400940795 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC767845201119F400940795;
+					};
+					DC767868201119F400940795 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC767845201119F400940795;
+					};
+				};
+			};
+			buildConfigurationList = DC767841201119F400940795 /* Build configuration list for PBXProject "DeepLinkingReceiver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC76783D201119F400940795;
+			productRefGroup = DC767847201119F400940795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC767845201119F400940795 /* DeepLinkingReceiver */,
+				DC76785D201119F400940795 /* DeepLinkingReceiverTests */,
+				DC767868201119F400940795 /* DeepLinkingReceiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC767844201119F400940795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC767856201119F400940795 /* LaunchScreen.storyboard in Resources */,
+				DC767853201119F400940795 /* Assets.xcassets in Resources */,
+				DC767851201119F400940795 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76785C201119F400940795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC767867201119F400940795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC767842201119F400940795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76784E201119F400940795 /* ViewController.m in Sources */,
+				DC767859201119F400940795 /* main.m in Sources */,
+				DC76784B201119F400940795 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76785A201119F400940795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC767863201119F400940795 /* DeepLinkingReceiverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC767865201119F400940795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76786E201119F400940795 /* DeepLinkingReceiverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC767860201119F400940795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC767845201119F400940795 /* DeepLinkingReceiver */;
+			targetProxy = DC76785F201119F400940795 /* PBXContainerItemProxy */;
+		};
+		DC76786B201119F400940795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC767845201119F400940795 /* DeepLinkingReceiver */;
+			targetProxy = DC76786A201119F400940795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC76784F201119F400940795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC767850201119F400940795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC767854201119F400940795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC767855201119F400940795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC767870201119F400940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC767871201119F400940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC767873201119F400940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GVFL9KS7M;
+				INFOPLIST_FILE = DeepLinkingReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.DeepLinkingReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC767874201119F400940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GVFL9KS7M;
+				INFOPLIST_FILE = DeepLinkingReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.DeepLinkingReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC767876201119F400940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GVFL9KS7M;
+				INFOPLIST_FILE = DeepLinkingReceiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.DeepLinkingReceiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLinkingReceiver.app/DeepLinkingReceiver";
+			};
+			name = Debug;
+		};
+		DC767877201119F400940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GVFL9KS7M;
+				INFOPLIST_FILE = DeepLinkingReceiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.DeepLinkingReceiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLinkingReceiver.app/DeepLinkingReceiver";
+			};
+			name = Release;
+		};
+		DC767879201119F400940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GVFL9KS7M;
+				INFOPLIST_FILE = DeepLinkingReceiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.DeepLinkingReceiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepLinkingReceiver;
+			};
+			name = Debug;
+		};
+		DC76787A201119F400940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GVFL9KS7M;
+				INFOPLIST_FILE = DeepLinkingReceiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.DeepLinkingReceiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepLinkingReceiver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC767841201119F400940795 /* Build configuration list for PBXProject "DeepLinkingReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC767870201119F400940795 /* Debug */,
+				DC767871201119F400940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC767872201119F400940795 /* Build configuration list for PBXNativeTarget "DeepLinkingReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC767873201119F400940795 /* Debug */,
+				DC767874201119F400940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC767875201119F400940795 /* Build configuration list for PBXNativeTarget "DeepLinkingReceiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC767876201119F400940795 /* Debug */,
+				DC767877201119F400940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC767878201119F400940795 /* Build configuration list for PBXNativeTarget "DeepLinkingReceiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC767879201119F400940795 /* Debug */,
+				DC76787A201119F400940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC76783E201119F400940795 /* Project object */;
+}
